@@ -4,7 +4,61 @@
   "description": "Automated Software Testing with Playwright and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "Comment #11": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - START",
+    "test_Assert_ElementText_headless_chromium": "playwright test tests/*/02_Assert_ElementText.spec.ts",
+    "test_Assert_ElementText_headed_chromium": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed",
+    "test_Assert_ElementText_headed_webkit": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed --browser=webkit",
+    "test_Assert_ElementText_headed_firefox": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed --browser=firefox",
+    "test_Assert_ElementText_headed_all": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed --browser=all",
+    "test_ClickOnElement_MultipleWays_headed_all": "playwright test tests/*/03_ClickOnElement_MultipleWays.spec.ts --headed --browser=all",
+    "test_Working_With_Inputs_headed_all": "playwright test tests/*/05_Working_With_Inputs.spec.ts --headed --browser=all",
+    "test_Assertions_headed_all": "playwright test tests/*/06_Assertions.spec.ts --headed --browser=all",
+    
+    "test_Annotations_SKIP_all": "playwright test tests/*/07_Annotations_SKIP.spec.ts --headed --browser=all",
+    "test_Annotations_ONLY_all": "playwright test tests/*/08_Annotations_ONLY.spec.ts --headed --browser=all",
+    "test_Annotations_DESCRIBE_all": "playwright test tests/*/09_Annotations_DESCRIBE.spec.ts --headed --browser=all",
+ 
+    "test_Tagging_Test_Level_Smoke_all": "playwright test tests/*/10_Tagging_Test_Level.spec.ts --headed --browser=all --grep @Smoke",
+    "test_Tagging_Test_Level_Sanity_all": "playwright test tests/*/10_Tagging_Test_Level.spec.ts --headed --browser=all --grep @Sanity",
+    "test_Tagging_Test_Level_BVT_all": "playwright test tests/*/10_Tagging_Test_Level.spec.ts --headed --browser=all --grep @BVT",
+    "test_Tagging_Test_Level_Regression_all": "playwright test tests/*/10_Tagging_Test_Level.spec.ts --headed --browser=all --grep @Regression",
+    "test_Tagging_Test_Level_Except_BVT_all": "playwright test tests/*/10_Tagging_Test_Level.spec.ts --headed --browser=all --grep-invert @BVT",
+ 
+    "test_Tagging_Suite_Level_BVT_all": "playwright test tests/*/11_Tagging_Suite_Level.spec.ts --headed --browser=all --grep @BVT",
+    "test_Tagging_Suite_Level_Regression_all": "playwright test tests/*/11_Tagging_Suite_Level.spec.ts --headed --browser=all --grep @Regression",
+    "test_Tagging_Suite_Level_Except_BVT_all": "playwright test tests/*/11_Tagging_Suite_Level.spec.ts --headed --browser=all --grep-invert @BVT",
+ 
+    "test_Config": "playwright test tests/*/06_Assertions.spec.ts --config=playwright-custom.config.ts",
+    "test_Config_Project_Webkit": "playwright test tests/*/06_Assertions.spec.ts --config=playwright-custom.config.ts --project=Webkit",
+    "test_Config_Project_Chromium": "playwright test tests/*/06_Assertions.spec.ts --config=playwright-custom.config.ts --project=Chromium",
+    "test_Config_Project_Firefox": "playwright test tests/*/06_Assertions.spec.ts --config=playwright-custom.config.ts --project=Firefox",
+ 
+    "test_Reporter_Line": "playwright test tests/*/06_Assertions.spec.ts --reporter=line",
+    "test_Reporter_List": "playwright test tests/*/06_Assertions.spec.ts --reporter=list",
+    "test_Reporter_Dott": "playwright test tests/*/06_Assertions.spec.ts --reporter=dot",
+    "test_Reporter_JUnit": "playwright test tests/*/06_Assertions.spec.ts --reporter=junit",
+    "test_Reporter_HTML": "playwright test tests/*/06_Assertions.spec.ts --reporter=html --headed",
+    
+    "test_Screenshot": "playwright test tests/*/12_Screenshot.spec.ts --headed",
+    "test_Hooks": "playwright test tests/*/13_Hooks.spec.ts",
+    "test_CustomFunctions": "playwright test tests/*/14_CustomFunctions.spec.ts",
+    "test_Playwright_Inspector": "playwright test tests/*/15_Playwright_Inspector.spec.ts --headed",
+    "test_ArtifactsOnFail_Video_Screenshot": "playwright test tests/*/16_ArtifactsOnFail_Video_Screenshot.spec.ts --headed --config=playwright-custom.config.ts --reporter=html",
+
+    "test_Tests_Execution_DEFAULT": "playwright test tests/*/17_Tests_Execution_DEFAULT.spec.ts --headed",
+    "test_Tests_Execution_SERIAL": "playwright test tests/*/18_Tests_Execution_SERIAL.spec.ts --headed",
+    "test_Tests_Execution_PARALLEL": "playwright test tests/*/19_Tests_Execution_PARALLEL.spec.ts --headed",
+    
+    "Comment #12": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - END",
+
+
+    "Comment #101": "UDEMY - Kaniel Outis (FOLDER wise) - START",
+    "test_folder_RS_Section_02": "playwright test tests/Section_02_KO_UI_Tests/*.spec.ts --headed",
+    "Comment #102": "UDEMY - Kaniel Outis (FOLDER wise) - END"
+   
+
   },
   "author": "Rajat Verma",
   "license": "ISC",
