@@ -1,0 +1,15 @@
+{
+  "name": "01_ko_playwright_ts",
+  "version": "1.0.0",
+  "description": "Automated Software Testing with Playwright and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajat Verma",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.21.1",
+    "prettier": "^2.6.2"
+  }
+}
