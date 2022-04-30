@@ -32,6 +32,7 @@ test.describe.parallel('Test suite - Execution: PARALLEL - Section_03_KO_UI_Test
         await page.type('#user_password','Invalid password')
         await page.click('text=Sign in')
 
+        //Assertion for message: Login and/or password are wrong.
         const msg_error_login = await page.locator('.alert-error')
         await expect(msg_error_login).toContainText('Login and/or password are wrong.')
 
