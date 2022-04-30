@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     
-    "Comment #11": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - START",
+    "-----------> Comment #11": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - START",
     "test_Assert_ElementText_headless_chromium": "playwright test tests/*/02_Assert_ElementText.spec.ts",
     "test_Assert_ElementText_headed_chromium": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed",
     "test_Assert_ElementText_headed_webkit": "playwright test tests/*/02_Assert_ElementText.spec.ts --headed --browser=webkit",
@@ -37,7 +37,7 @@
  
     "test_Reporter_Line": "playwright test tests/*/06_Assertions.spec.ts --reporter=line",
     "test_Reporter_List": "playwright test tests/*/06_Assertions.spec.ts --reporter=list",
-    "test_Reporter_Dott": "playwright test tests/*/06_Assertions.spec.ts --reporter=dot",
+    "test_Reporter_Dot": "playwright test tests/*/06_Assertions.spec.ts --reporter=dot",
     "test_Reporter_JUnit": "playwright test tests/*/06_Assertions.spec.ts --reporter=junit",
     "test_Reporter_HTML": "playwright test tests/*/06_Assertions.spec.ts --reporter=html --headed",
     
@@ -51,12 +51,29 @@
     "test_Tests_Execution_SERIAL": "playwright test tests/*/18_Tests_Execution_SERIAL.spec.ts --headed",
     "test_Tests_Execution_PARALLEL": "playwright test tests/*/19_Tests_Execution_PARALLEL.spec.ts --headed",
     
-    "Comment #12": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - END",
+    "-----------> Comment #12": "UDEMY - Kaniel Outis (Section 2: Playwright Fundamentals) - END",
 
+    "-----------> Comment #13": "UDEMY - Kaniel Outis (Section 3:  E2E Testing - Complete Project) - START",
+    
+    "test_e2e_Config_E2E_Project_Chromium": "playwright test --config=playwright-e2e.config.ts --project=Chromium",
+    
+    "test_e2e_Login_Logout_Config_E2E_Project_Firefox": "playwright test tests/*/20_Tests_E2E_Login_Logout.spec.ts --config=playwright-e2e.config.ts --project=Firefox",
+    "test_e2e_FeedbackForm_Config_E2E_Project_Firefox": "playwright test tests/*/21_Tests_E2E_FeedbackForm.spec.ts --config=playwright-e2e.config.ts --project=Firefox",
+    "test_e2e_Search_KeyboardSimulation_Config_E2E_Project_Firefox": "playwright test tests/*/22_Tests_E2E_Search_KeyboardSimulation.spec.ts --config=playwright-e2e.config.ts --project=Firefox",
+    "test_e2e_TransferFunds_Dropdown_Config_E2E_Project_Firefox": "playwright test tests/*/23_Tests_E2E_TransferFunds_Dropdown.spec.ts --config=playwright-e2e.config.ts --project=Firefox",
+    "test_e2e_TransferFunds_Dropdown_Config_E2E_Project_Webkit": "playwright test tests/*/23_Tests_E2E_TransferFunds_Dropdown.spec.ts --config=playwright-e2e.config.ts --project=Webkit",
+    "test_e2e_FilterTransaction_WebTable_Config_E2E_Project_Chromium": "playwright test tests/*/24_Tests_E2E_FilterTransaction_WebTable.spec.ts --config=playwright-e2e.config.ts --project=Chromium",
+    "test_e2e_Payment_DatePicker_Config_E2E_Project": "playwright test tests/*/25_Tests_E2E_Payment_DatePicker.spec.ts --config=playwright-e2e.config.ts",
+    "test_e2e_CurrencyExchange_Config_E2E_Project_Chromium": "playwright test tests/*/26_Tests_E2E_CurrencyExchange.spec.ts --config=playwright-e2e.config.ts --project=Chromium",
+    
+    "-----------> Comment #14": "UDEMY - Kaniel Outis (Section 3:  E2E Testing - Complete Project) - END",
 
-    "Comment #101": "UDEMY - Kaniel Outis (FOLDER wise) - START",
+   
+
+    "-----------> Comment #101": "UDEMY - Kaniel Outis (FOLDER wise) - START",
     "test_folder_RS_Section_02": "playwright test tests/Section_02_KO_UI_Tests/*.spec.ts --headed",
-    "Comment #102": "UDEMY - Kaniel Outis (FOLDER wise) - END"
+
+    "-----------> Comment #102": "UDEMY - Kaniel Outis (FOLDER wise) - END"
    
 
   },
