@@ -82,13 +82,41 @@
     
     "-----------> Comment #16": "UDEMY - Kaniel Outis (Section 4: Page Objects Pattern) - END",
 
-    
+    "-----------> Comment #17": "UDEMY - Kaniel Outis (Section 5: Advanced: Visual Testing) - START",
 
+    "test_Visual_FullPage_Snapshot_Config_Custom": "playwright test tests/*/34_Tests_Visual.spec.ts --config=playwright-custom.config.ts",
+    "test_Visual_POM_Config_Custom_Project_Webkit": "playwright test tests/*/35_Tests_Visual_POM.spec.ts --config=playwright-custom.config.ts --project=Webkit",
+    "test_Visual_POM_Config_Custom": "playwright test tests/*/35_Tests_Visual_POM.spec.ts --config=playwright-custom.config.ts",
+    
+    "test_Visual_POM_Config_Custom_Project_Webkit_UpdateSnapshots": "playwright test tests/*/35_Tests_Visual_POM.spec.ts --config=playwright-custom.config.ts --project=Webkit --update-snapshots",
+   
+    "-----------> Comment #18": "UDEMY - Kaniel Outis (Section 5: Advanced: Visual Testing) - END",
+    
+    "-----------> Comment #19": "UDEMY - Kaniel Outis (Section 6: Advanced: REST API Testing) - START",
+
+    "test_API_GET_Assert_ResponseStatusCode_Reporter_Line": "playwright test tests/*/36_Tests_API_GET_Assert_ResponseStatusCode.spec.ts --headed --reporter=line",
+    "test_API_GET_Extract_ResponseData_Reporter_Line": "playwright test tests/*/37_Tests_API_GET_Extract_ResponseData.spec.ts --headed --reporter=line",
+    "test_API_GET_Assert_ResponseData_Reporter_Line": "playwright test tests/*/38_Tests_API_GET_Assert_ResponseData.spec.ts --headed --reporter=line",  
+    "test_API_POST_Assert_ResponseData_Reporter_HTML": "playwright test tests/*/39_Tests_API_POST_Assert_ResponseData.spec.ts --headed --reporter=html",
+    "test_API_PUT_Assert_ResponseData_Reporter_Junit": "playwright test tests/*/40_Tests_API_PUT_Assert_ResponseData.spec.ts --headed --reporter=junit",
+    "test_API_DELETE_Assert_ResponseData_Reporter_Dot": "playwright test tests/*/41_Tests_API_DELETE_Assert_ResponseData.spec.ts --headed --reporter=dot",
+
+    "test_API_Tutor_Reporter_HTML": "playwright test tests/*/42_Tests_API_Tutor.spec.ts --headed --reporter=html",
+
+    "-----------> Comment #20": "UDEMY - Kaniel Outis (Section 6: Advanced: REST API Testing) - END",
+
+    "-----------> Comment #21": "UDEMY - Kaniel Outis () - START",
+
+    "-----------> Comment #22": "UDEMY - Kaniel Outis () - END",
+    
     "-----------> Comment #101": "UDEMY - Kaniel Outis (FOLDER wise) - START",
     "test_folder_KO_Section_02": "playwright test tests/Section_02_KO_UI_Tests/*.spec.ts --headed",
     "test_folder_KO_Section_03": "playwright test tests/Section_03_KO_UI_Tests_e2e/*.spec.ts --headed",
     "test_folder_KO_Section_04": "playwright test tests/Section_04_KO_UI_Tests_e2e_PageObjects/*.spec.ts --headed",
+    "test_folder_KO_Section_05": "playwright test tests/Section_05_KO_UI_Tests_Visual/*.spec.ts --headed",
+    "test_folder_KO_Section_06": "playwright test tests/Section_06_KO_API_Tests/*.spec.ts --headed",
 
+    
     "-----------> Comment #102": "UDEMY - Kaniel Outis (FOLDER wise) - END"
    
 

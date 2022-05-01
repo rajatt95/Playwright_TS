@@ -5,6 +5,8 @@ const config: PlaywrightTestConfig ={
     timeout: 60000, //60 seconds  //Global time out for all the tests
     retries: 1, //how many times you want to run failed tests
     
+    reporter: 'html',
+
     //Define Browser specific options
     use: {
         headless:false,
