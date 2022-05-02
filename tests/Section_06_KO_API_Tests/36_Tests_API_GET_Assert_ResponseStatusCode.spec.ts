@@ -29,16 +29,16 @@ test.describe.parallel('Section_06_KO_API_Tests : API Testing', () => {
   })
 
 
-  test('Simple API Test - Assert Response Status: Intentionally Failing', async ({ request }) => {
+  // test('Simple API Test - Assert Response Status: Intentionally Failing', async ({ request }) => {
 
-    // This is a GET request 
-    // URL: https://reqres.in/api/users/3
-    const response = await request.get(`${baseUrl}/users/3`)
+  //   // This is a GET request 
+  //   // URL: https://reqres.in/api/users/3
+  //   const response = await request.get(`${baseUrl}/users/3`)
 
-    //Assertion for Response Status Code
-    expect(response.status()).toBe(201)
+  //   //Assertion for Response Status Code
+  //   expect(response.status()).toBe(201)
 
-  })
+  // })
 
 
 })//describe
