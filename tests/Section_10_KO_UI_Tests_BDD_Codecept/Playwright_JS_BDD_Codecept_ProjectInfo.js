@@ -13,7 +13,7 @@
 /**************************************************/
 
 /**
- * Project name: Playwright_TS_BDD 
- * https://github.com/rajatt95/Playwright_TS_BDD
- * About: Automation Testing | Web | Cypress | Typescript | VS Code | Mocha | Cucumber | Cucumber-HTML-Reports
+ * Project name: Playwright_JS_BDD_CodeceptJS
+ * https://github.com/rajatt95/Playwright_JS_BDD_CodeceptJS
+ * About: Automation Testing | Web | Playwright | Javascript | VS Code | BDD | CodeceptJS | Page Object Model | Assertions | Multiple Scenarios | Before and After Hooks
  */
