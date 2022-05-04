@@ -13,4 +13,7 @@ Execution - Parallel, Serial, Default | Parameterization using multiple Data set
 Learnings from Course : 
 ------------------------------------------------------------------------------------------------------------------------
 
-To be updated.........
+[UDEMY_KO_Playwright_TS_Jenkins_Local.pdf](https://github.com/rajatt95/Playwright_TS/files/8619840/UDEMY_KO_Playwright_TS_Jenkins_Local.pdf)
+
+
+More To be updated.........
