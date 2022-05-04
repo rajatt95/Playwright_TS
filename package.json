@@ -120,7 +120,7 @@
     "test_Tips_DeviceEmulation": "playwright open --device=\"iPhone 11\" https://www.google.com/",
 
     "test_Tips_Generate_PDF_Github_Profile_rajatt95": "playwright pdf https://github.com/rajatt95 ./PDFs/Github_Profile-Rajatt95.pdf",
-    "test_Tips_Generate_PDF_Github_Page_rajatt95": "playwright pdf https://rajatt95.github.io/ ./PDFs/Github_Page-Rajatt95.pdf",
+    "test_Tips_Generate_PDF_Github_Page_rajatt95": "playwright pdf https://rajatt95.github.io/ ./PDFs/Github_Page-Rajatt95.pdf --wait-for-timeout=5000",
 
     "test_Tips_CustomizedScreenshot_iPhone_dark_githubProfile_rajatt95": "playwright screenshot --device=\"iPhone 11\" --color-scheme=dark --wait-for-timeout=3000 https://github.com/rajatt95 ./screenshots/iPhone11-dark-github_profile-rajatt95.png",
     "test_Tips_CustomizedScreenshot_iPhone_light_githubProfile_rajatt95": "playwright screenshot --device=\"iPhone 11\" --color-scheme=light --wait-for-timeout=3000 https://github.com/rajatt95 ./screenshots/iPhone11-light-github_profile-rajatt95.png",
