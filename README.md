@@ -10,7 +10,8 @@ Execution - Parallel, Serial, Default | Parameterization using multiple Data set
 # Tutor: <a href="https://www.udemy.com/user/shinoku911/">Kaniel Outis</a>
 
 ------------------------------------------------------------------------------------------------------------------------
-Learnings from Course : 
+# Learnings from Course : [Summary_UDEMY_KO_Automated Software Testing with Playwright.pdf](https://github.com/rajatt95/Playwright_TS/files/8687165/Summary_UDEMY_KO_Automated.Software.Testing.with.Playwright.pdf)
+
 ------------------------------------------------------------------------------------------------------------------------
 
 [UDEMY_KO_Playwright_TS_Jenkins_Local.pdf](https://github.com/rajatt95/Playwright_TS/files/8619840/UDEMY_KO_Playwright_TS_Jenkins_Local.pdf)
